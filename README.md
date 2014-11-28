@@ -1,0 +1,4 @@
+app-plugin
+==========
+
+OctoberCms Plugin
