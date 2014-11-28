@@ -1,0 +1,42 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    academic_year:
+        label: Academic Year:
+        span: full
+        mode: date
+
+    starting_date:
+         label: Starting Date:
+         span: left
+         type: datepicker
+         mode: date
+
+    ending_date:
+         label: Ending Date:
+         span: right
+         type: datepicker
+         mode: date
+
+    print_date:
+         label: Transcript Print Date::
+         span: left
+         mode: date
+    school_day:
+         label: School Days:
+         span: right
+         mode: date
+
+    details:
+         label: Details:
+         span: full
+         type: textarea
+
+    import_form:
+         label: Import Form:
+         #type: dropdown
+         span: auto
+         placeholder: --select import--

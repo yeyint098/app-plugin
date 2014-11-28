@@ -1,0 +1,31 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    academic_year:
+        label: Academic Year
+        searchable: true
+
+    starting_date:
+        label: Starting date
+        searchable: true
+
+    ending_date:
+        label: Ending Date
+        searchable: true
+
+    print_day:
+        label: Print Day
+        searchable: true
+
+    school_day:
+        label: School Day
+        searchable: true
+
+    details:
+        label: Details
+        searchable: true
+
+
+

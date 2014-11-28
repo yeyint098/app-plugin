@@ -1,0 +1,36 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    title:
+         label: title
+         searchable: true
+    phone:
+         label: phone
+         searchable: true
+
+    principal:
+         label: principal
+         searchable: true
+
+    website:
+         label: website
+         searchable: true
+
+    email:
+         label: E-mail
+         searchable: true
+
+    details:
+         label: details
+         searchable: true
+
+    address:
+         label: address
+         searchable: true
+

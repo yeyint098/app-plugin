@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Staff
+
+# Model Form Field configuration
+form: $/mmlinks/app/models/staff/fields.yaml
+
+# Model Class name
+modelClass: MMlinks\App\Models\Staff
+
+# Default redirect location
+defaultRedirect: mmlinks/app/staffs
+
+# Create page
+create:
+    title: Create Staffs
+    redirect: mmlinks/app/staffs/update/:id
+    redirectClose: mmlinks/app/staffs
+
+# Update page
+update:
+    title: Edit Staffs
+    redirect: mmlinks/app/staffs
+    redirectClose: mmlinks/app/staffs
+
+# Preview page
+preview:
+    title: Preview Staffs

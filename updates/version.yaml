@@ -1,0 +1,11 @@
+1.0.1: First version of App
+1.0.2:
+     - Create The Campus Data Table
+     - create_campuses_table.php
+1.0.3:
+     - Create the Academic Year Table
+     - create_academic_years_table.php
+1.0.4:
+     - Create the Staff table and Grade table
+     - create_staffs_table.php
+     - create_grades_table.php

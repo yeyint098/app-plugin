@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Grade
+
+# Model Form Field configuration
+form: $/mmlinks/app/models/grade/fields.yaml
+
+# Model Class name
+modelClass: MMlinks\App\Models\Grade
+
+# Default redirect location
+defaultRedirect: mmlinks/app/grades
+
+# Create page
+create:
+    title: Create Grades
+    redirect: mmlinks/app/grades/update/:id
+    redirectClose: mmlinks/app/grades
+
+# Update page
+update:
+    title: Edit Grades
+    redirect: mmlinks/app/grades
+    redirectClose: mmlinks/app/grades
+
+# Preview page
+preview:
+    title: Preview Grades

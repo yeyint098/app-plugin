@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Campus
+
+# Model Form Field configuration
+form: $/mmlinks/app/models/campus/fields.yaml
+
+# Model Class name
+modelClass: MMlinks\App\Models\Campus
+
+# Default redirect location
+defaultRedirect: mmlinks/app/campuses
+
+# Create page
+create:
+    title: Create Campuses
+    redirect: mmlinks/app/campuses/update/:id
+    redirectClose: mmlinks/app/campuses
+
+# Update page
+update:
+    title: Edit Campuses
+    redirect: mmlinks/app/campuses
+    redirectClose: mmlinks/app/campuses
+
+# Preview page
+preview:
+    title: Preview Campuses

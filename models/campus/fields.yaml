@@ -1,0 +1,33 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: Title:
+        select: @title
+        span: full
+
+    phone:
+         label: Phone:
+         span: left
+
+    Principal:
+         label: Principal:
+         span: right
+
+    Website:
+         label: Website:
+         span: left
+    email:
+         label: E-mail:
+         span: right
+
+    details:
+         label: Details:
+         span: full
+         type: textarea
+    address:
+         label: Address:
+         span: full

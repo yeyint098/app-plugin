@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: AcademicYear
+
+# Model Form Field configuration
+form: $/mmlinks/app/models/academicyear/fields.yaml
+
+# Model Class name
+modelClass: MMlinks\App\Models\AcademicYear
+
+# Default redirect location
+defaultRedirect: mmlinks/app/academicyears
+
+# Create page
+create:
+    title: Create AcademicYears
+    redirect: mmlinks/app/academicyears/update/:id
+    redirectClose: mmlinks/app/academicyears
+
+# Update page
+update:
+    title: Edit AcademicYears
+    redirect: mmlinks/app/academicyears
+    redirectClose: mmlinks/app/academicyears
+
+# Preview page
+preview:
+    title: Preview AcademicYears
